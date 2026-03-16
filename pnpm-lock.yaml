@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       turbo:
-        specifier: 2.8.18-canary.10
-        version: 2.8.18-canary.10
+        specifier: 2.8.18-canary.12
+        version: 2.8.18-canary.12
 
   packages/a: {}
 
@@ -18,65 +18,65 @@ importers:
 
 packages:
 
-  '@turbo/darwin-64@2.8.18-canary.10':
-    resolution: {integrity: sha512-UkKMq/amjqSFVmJIAvqXl41FEmHcsJYRun0nmy9i4H+1xvkmVO+1nuN1QoM2Pw/l2M9Aoqhmgx/Ft4ZNA8ZB1g==}
+  '@turbo/darwin-64@2.8.18-canary.12':
+    resolution: {integrity: sha512-b/wloW2PGO3h23TfXmDXTaG349EDAS5UbdbYIQDia0qtVZfGo3UFjn6M392i6r2uYts7J4A4//EoktJ1Gvkmqw==}
     cpu: [x64]
     os: [darwin]
 
-  '@turbo/darwin-arm64@2.8.18-canary.10':
-    resolution: {integrity: sha512-vBe1n095v8c2lzrPSvhPrsUAyMxNd3yWKC1sVBut+Jlth1M+wuxiMJM8lJSOyIqmsfNXS9QvT9713/7wZcSMyQ==}
+  '@turbo/darwin-arm64@2.8.18-canary.12':
+    resolution: {integrity: sha512-QjtvVat+J3OoR3UySt79yHaHHEHDBmnAsztLiZjxoCg/SlwsziOkh2DSitUOMApbpoUuqLEfpvx6F9Opo/4FAQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@turbo/linux-64@2.8.18-canary.10':
-    resolution: {integrity: sha512-YvuureK9xNHu9kiZ1AkrKnVCw6c9GgFA9egcFZQKTr4EqnLxMiVJyWrPaE96YEAx7oVWANksc/k77DLYao/Fpw==}
+  '@turbo/linux-64@2.8.18-canary.12':
+    resolution: {integrity: sha512-RQJp8TqbKSeHhlrtahgLJ5ycyCeCqek+9i+KQUs53vnUfN5Ccd1VJYTeYyXXZGsyVCGEjZqrKwqCYHWNoHWOVA==}
     cpu: [x64]
     os: [linux]
 
-  '@turbo/linux-arm64@2.8.18-canary.10':
-    resolution: {integrity: sha512-p4d3X+s6vhPaVjvtepngANiQSod97lRDz5nKhVI3UPIthIZjfxxyn50kDrx2eiJ3/Y17VuAgWsh05wt5RbUI9g==}
+  '@turbo/linux-arm64@2.8.18-canary.12':
+    resolution: {integrity: sha512-VZLz4pd9xHqUx5RWR/3XPPO4ZC9o13oWAtYP+lQdd/fN8irq7qQvk5DkErX0Vu0wM6BKMTGuieSn87TbipNxnQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@turbo/windows-64@2.8.18-canary.10':
-    resolution: {integrity: sha512-dJjc4sIG+UCvDZ1Xwrp0pkknTthRy6eLKoWQhrgmKDgLC+++rYhkvlcMM0UOb1RtncZxUkLzYbPMjbeSnwOuIw==}
+  '@turbo/windows-64@2.8.18-canary.12':
+    resolution: {integrity: sha512-ap31jM30zy/iYayzfSLD6O8WQ2D2dV6J9+BMPm8pL2RuNYr13X2GrNPGFzaUys3pRkY2lZ3CxN8KHZiStdyZ7A==}
     cpu: [x64]
     os: [win32]
 
-  '@turbo/windows-arm64@2.8.18-canary.10':
-    resolution: {integrity: sha512-KzNC6eaXHQJmm04RrOD+jGQhlYyiAPbqdFEtAtsRc2yrPr4006gmnWwYux/w7Lt/MwZXoFgeZpQd/UKiSArWFw==}
+  '@turbo/windows-arm64@2.8.18-canary.12':
+    resolution: {integrity: sha512-fIOWvFjWSGGykILIDwbzpdw1T4Ep/pLCX5gcBOt6LP1TLoRsQxzuyw+9tln8oPkRdJzSC7z7sMqWkZ/ClVo6Zw==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.8.18-canary.10:
-    resolution: {integrity: sha512-S6Ii2lIJDSPlBYClDLysaVUUvhFAmROk7zNgz6nVFhOLvQZMBfCeA/zC5AqrJ9HOultYCgd58qnYb6F73AahEw==}
+  turbo@2.8.18-canary.12:
+    resolution: {integrity: sha512-ZsyHksC/REKRpb1pP+Gjlpd1wIm17XWEdIoZTk8NAlCg1hv2oTVu8xFF8sApMwFPT3VvJJfRZTQFNErAq3+RYw==}
     hasBin: true
 
 snapshots:
 
-  '@turbo/darwin-64@2.8.18-canary.10':
+  '@turbo/darwin-64@2.8.18-canary.12':
     optional: true
 
-  '@turbo/darwin-arm64@2.8.18-canary.10':
+  '@turbo/darwin-arm64@2.8.18-canary.12':
     optional: true
 
-  '@turbo/linux-64@2.8.18-canary.10':
+  '@turbo/linux-64@2.8.18-canary.12':
     optional: true
 
-  '@turbo/linux-arm64@2.8.18-canary.10':
+  '@turbo/linux-arm64@2.8.18-canary.12':
     optional: true
 
-  '@turbo/windows-64@2.8.18-canary.10':
+  '@turbo/windows-64@2.8.18-canary.12':
     optional: true
 
-  '@turbo/windows-arm64@2.8.18-canary.10':
+  '@turbo/windows-arm64@2.8.18-canary.12':
     optional: true
 
-  turbo@2.8.18-canary.10:
+  turbo@2.8.18-canary.12:
     optionalDependencies:
-      '@turbo/darwin-64': 2.8.18-canary.10
-      '@turbo/darwin-arm64': 2.8.18-canary.10
-      '@turbo/linux-64': 2.8.18-canary.10
-      '@turbo/linux-arm64': 2.8.18-canary.10
-      '@turbo/windows-64': 2.8.18-canary.10
-      '@turbo/windows-arm64': 2.8.18-canary.10
+      '@turbo/darwin-64': 2.8.18-canary.12
+      '@turbo/darwin-arm64': 2.8.18-canary.12
+      '@turbo/linux-64': 2.8.18-canary.12
+      '@turbo/linux-arm64': 2.8.18-canary.12
+      '@turbo/windows-64': 2.8.18-canary.12
+      '@turbo/windows-arm64': 2.8.18-canary.12
