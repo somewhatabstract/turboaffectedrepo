@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "act": "turbo run act",
+    "mod": "echo \"A change to trigger the affected graph\" >> ./specialrootinput.txt",
+    "reset": "rm -f ./specialrootinput.txt && touch ./specialrootinput.txt"
   },
   "keywords": [],
   "author": "",
