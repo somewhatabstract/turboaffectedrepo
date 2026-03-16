@@ -1,0 +1,82 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      turbo:
+        specifier: 2.8.18-canary.10
+        version: 2.8.18-canary.10
+
+  packages/a: {}
+
+  packages/b: {}
+
+packages:
+
+  '@turbo/darwin-64@2.8.18-canary.10':
+    resolution: {integrity: sha512-UkKMq/amjqSFVmJIAvqXl41FEmHcsJYRun0nmy9i4H+1xvkmVO+1nuN1QoM2Pw/l2M9Aoqhmgx/Ft4ZNA8ZB1g==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@turbo/darwin-arm64@2.8.18-canary.10':
+    resolution: {integrity: sha512-vBe1n095v8c2lzrPSvhPrsUAyMxNd3yWKC1sVBut+Jlth1M+wuxiMJM8lJSOyIqmsfNXS9QvT9713/7wZcSMyQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@turbo/linux-64@2.8.18-canary.10':
+    resolution: {integrity: sha512-YvuureK9xNHu9kiZ1AkrKnVCw6c9GgFA9egcFZQKTr4EqnLxMiVJyWrPaE96YEAx7oVWANksc/k77DLYao/Fpw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@turbo/linux-arm64@2.8.18-canary.10':
+    resolution: {integrity: sha512-p4d3X+s6vhPaVjvtepngANiQSod97lRDz5nKhVI3UPIthIZjfxxyn50kDrx2eiJ3/Y17VuAgWsh05wt5RbUI9g==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@turbo/windows-64@2.8.18-canary.10':
+    resolution: {integrity: sha512-dJjc4sIG+UCvDZ1Xwrp0pkknTthRy6eLKoWQhrgmKDgLC+++rYhkvlcMM0UOb1RtncZxUkLzYbPMjbeSnwOuIw==}
+    cpu: [x64]
+    os: [win32]
+
+  '@turbo/windows-arm64@2.8.18-canary.10':
+    resolution: {integrity: sha512-KzNC6eaXHQJmm04RrOD+jGQhlYyiAPbqdFEtAtsRc2yrPr4006gmnWwYux/w7Lt/MwZXoFgeZpQd/UKiSArWFw==}
+    cpu: [arm64]
+    os: [win32]
+
+  turbo@2.8.18-canary.10:
+    resolution: {integrity: sha512-S6Ii2lIJDSPlBYClDLysaVUUvhFAmROk7zNgz6nVFhOLvQZMBfCeA/zC5AqrJ9HOultYCgd58qnYb6F73AahEw==}
+    hasBin: true
+
+snapshots:
+
+  '@turbo/darwin-64@2.8.18-canary.10':
+    optional: true
+
+  '@turbo/darwin-arm64@2.8.18-canary.10':
+    optional: true
+
+  '@turbo/linux-64@2.8.18-canary.10':
+    optional: true
+
+  '@turbo/linux-arm64@2.8.18-canary.10':
+    optional: true
+
+  '@turbo/windows-64@2.8.18-canary.10':
+    optional: true
+
+  '@turbo/windows-arm64@2.8.18-canary.10':
+    optional: true
+
+  turbo@2.8.18-canary.10:
+    optionalDependencies:
+      '@turbo/darwin-64': 2.8.18-canary.10
+      '@turbo/darwin-arm64': 2.8.18-canary.10
+      '@turbo/linux-64': 2.8.18-canary.10
+      '@turbo/linux-arm64': 2.8.18-canary.10
+      '@turbo/windows-64': 2.8.18-canary.10
+      '@turbo/windows-arm64': 2.8.18-canary.10

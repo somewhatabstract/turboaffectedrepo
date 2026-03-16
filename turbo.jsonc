@@ -1,0 +1,33 @@
+{
+    "$schema": "https://turborepo.com/schema.json",
+    "futureFlags": {
+        // We want the `--affected` flag to mean what tasks are affected based
+        // on their inputs, not what tasks are affected for the packages that
+        // have file changes.
+        "affectedUsingTaskInputs": true,
+    },
+    "tasks": {
+        // Run eslint for each package in the project.
+        "act": {
+            "dependsOn": [
+                "topo"
+            ],
+            "inputs": [
+                "$TURBO_DEFAULT$",
+                "$TURBO_ROOT$/specialrootinput.txt",
+            ]
+        },
+        // This is a task that intentionally does nothing. Other tasks can depend
+        // upon it to ensure that they are re-run when the dependencies change.
+        // More info:
+        // https://turborepo.com/docs/crafting-your-repository/configuring-tasks#dependent-tasks-that-can-be-run-in-parallel
+        "topo": {
+            "dependsOn": [
+                "^topo"
+            ],
+            "inputs": [
+                "$TURBO_DEFAULT$",
+            ]
+        }
+    },
+}
