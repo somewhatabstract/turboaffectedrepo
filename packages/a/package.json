@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "act": "echo \"Package A acted!\""
+    "act1": "echo \"Package A did act 1!\"",
+    "act2": "echo \"Package A did act 2!\""
   },
   "keywords": [],
   "author": "",

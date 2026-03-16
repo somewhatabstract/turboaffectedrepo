@@ -7,14 +7,22 @@
         "affectedUsingTaskInputs": true,
     },
     "tasks": {
-        // Run eslint for each package in the project.
-        "act": {
+        "act1": {
             "dependsOn": [
                 "topo"
             ],
             "inputs": [
                 "$TURBO_DEFAULT$",
                 "$TURBO_ROOT$/specialrootinput.txt",
+            ]
+        },
+        "act2": {
+            "dependsOn": [
+                "topo"
+            ],
+            "inputs": [
+                "$TURBO_DEFAULT$",
+                "$TURBO_ROOT$/specialrootinput2.txt",
             ]
         },
         // This is a task that intentionally does nothing. Other tasks can depend

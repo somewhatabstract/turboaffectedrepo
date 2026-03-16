@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "act": "turbo run act",
-    "mod": "echo \"A change to trigger the affected graph\" >> ./specialrootinput.txt",
-    "reset": "rm -f ./specialrootinput.txt && touch ./specialrootinput.txt"
+    "act1": "turbo run act1",
+    "act2": "turbo run act2",
+    "mod1": "echo \"A change to trigger the affected graph\" >> ./specialrootinput.txt",
+    "mod2": "echo \"A change to trigger the affected graph\" >> ./specialrootinput2.txt",
+    "reset": "rm -f ./specialrootinput.txt ./specialrootinput2.txt && touch ./specialrootinput.txt ./specialrootinput2.txt"
   },
   "keywords": [],
   "author": "",
